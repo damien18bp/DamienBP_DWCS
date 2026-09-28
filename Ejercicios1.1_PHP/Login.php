@@ -12,7 +12,7 @@ define('PASS', '1234');
 function login(string $username, string $password): bool {
     $toret = false;
     if (!empty($username) && !empty($password)) {
-        if ($USER === $username && $PASS === $password) {
+        if (USER === $username && PASS === $password) {
             $toret = true;
         }
     }
