@@ -18,3 +18,4 @@ function login(string $username, string $password): bool {
     }
     return $toret;
 }
+?>
